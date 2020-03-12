@@ -9,3 +9,5 @@
 [03-BubbleSort 冒泡排序](https://github.com/franklee0902/algorithm/blob/master/03-BubbleSort.php)
 
 [04-ShellSort 希尔排序](https://github.com/franklee0902/algorithm/blob/master/04-ShellSort.php)
+
+[05-MergeSort 归并排序](https://github.com/franklee0902/algorithm/blob/master/05-MergeSort.php)
