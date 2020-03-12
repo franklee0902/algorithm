@@ -18,10 +18,12 @@ function __insertionSort(array &$arr, int $l, int $r) {
 // 将arr[l...r]进行partition操作
 // 返回索引值 p，使得 : arr[l...p-1] < arr[p] && arr[p+1...r] > arr[p]
 function __partition(array &$arr, int $l, int $r) {
+
+    // 添加随机优化，解决数组近乎有序的情况快速排序退化为O(N^2)的问题
     swap($arr[$l], $arr[rand($l, $r)]);
     $v = $arr[$l];
 
-    // arr[l+1...j] < v && arr[j+1...i)>v
+    // 循环不变量：arr[l+1...j] < v && arr[j+1...i) > v
     $j = $l; $i = $l + 1;
     for(; $i <= $r; $i++){
         if($arr[$i] < $v){
