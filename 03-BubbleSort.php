@@ -2,7 +2,7 @@
 
 require "helper.php";
 
-// 冒泡排序
+// 冒泡排序，时间复杂度为：O(N^2),是稳定的排序算法
 function bubbleSort(array &$arr) {
     $length = count($arr);
 

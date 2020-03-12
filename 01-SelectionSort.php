@@ -2,7 +2,7 @@
 
 require "helper.php";
 
-// 选择排序
+// 选择排序，时间复杂度为：O(N^2) ，不稳定（因为在swap会打破稳定性）
 function selectionSort(array &$arr) {
     $length = count($arr);
 
