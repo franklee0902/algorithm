@@ -11,3 +11,5 @@
 [04-ShellSort 希尔排序](https://github.com/franklee0902/algorithm/blob/master/04-ShellSort.php)
 
 [05-MergeSort 归并排序](https://github.com/franklee0902/algorithm/blob/master/05-MergeSort.php)
+
+[06-QuickSort1 单路快速排序](https://github.com/franklee0902/algorithm/blob/master/06-QuickSort1.php)
