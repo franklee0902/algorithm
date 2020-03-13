@@ -14,4 +14,4 @@
 
 [06-QuickSort1 单路快速排序](https://github.com/franklee0902/algorithm/blob/master/06-QuickSort1.php)
 
-[07-QuickSort2 双路快速排序](https://github.com/franklee0902/algorithm/blob/master/06-QuickSort2.php)
+[07-QuickSort2 双路快速排序](https://github.com/franklee0902/algorithm/blob/master/07-QuickSort2.php)
